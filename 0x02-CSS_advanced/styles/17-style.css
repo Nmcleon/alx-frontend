@@ -113,7 +113,7 @@ a:active {
 }
 
 .section-footer {
-	padding: var(--footer-padding);
+	padding: var(--section-footer-padding);
 	align-items: var(--section-footer-align);
 }
 
