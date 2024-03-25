@@ -21,7 +21,7 @@ html {
 
 body {
 	color: var(--text-color);
-	font-family: var(--front-famlily-base);
+	font-family: var(--font-family-base);
 }
 
 /* declaration targeting 6 levels of section heading*/
