@@ -50,6 +50,8 @@ html {
 	--section-body-padding: 0 0 3rem;
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
+	/* Grid lines and Custom variables*/
+	--section-tagline-margin: 0;
 	--footer-padding: 5rem 0 1rem;
 	/* Nav items Properties*/
 	--nav-item-font-family: var(--font-family-title);
@@ -59,8 +61,7 @@ html {
 	--nav-item-display: inline-block;
 	--nav-item-margin: 0 0 3rem 0;
 	--nav-item-link-hover: var(--color-primary);
-	/* Grid lines and Custom variables*/
-	--section-tagline-margin: 0;
+
 }
 
 
