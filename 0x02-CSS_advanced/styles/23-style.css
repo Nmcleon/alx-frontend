@@ -253,6 +253,6 @@ ul.row {
 	display: block; /* Make it render as a block element */
 }
 /* Style the SVG children of the social-link class */
-.social-link svg {
+.social-link > svg {
 	fill: var(--text-color); /* Fill the SVG with the text-color variable */
 }
