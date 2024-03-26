@@ -346,15 +346,15 @@ ul.row {
 }
 
 .card-work .card-outer {
-	position: relative;
-	overflow: hidden;
+	position: relative; /* Relatively position the element */
+    overflow: hidden; /* Hide any overflow */
 }
 
 .card-work .card-image img {
-	height: 30rem;
-	width: 100%;
-	object-fit: cover;
-	vertical-align: bottom;
+    height: 30rem; /* Set height to 30rem */
+    width: 100%; /* Set width to 100% */
+    object-fit: cover; /* Set object-fit to cover */
+    vertical-align: bottom; /* Vertically align to the bottom */
 }
 
 .card-work .card-image {
@@ -366,7 +366,7 @@ ul.row {
 }
 
 .card-work:hover .card-inner {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); /* Set background color to rgba(0, 0, 0, 0.7) */
 }
 
 .card-work .card-title {
@@ -384,16 +384,16 @@ ul.row {
 }
 
 .card-work .card-title a::after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	content: "";
+    content: ""; /* The content property of these elements should have an empty value */
+    position: absolute; /* Absolutely position the selected elements */
+    top: 0; /* Set top position to 0 */
+    right: 0; /* Set right position to 0 */
+    bottom: 0; /* Set bottom position to 0 */
+    left: 0; /* Set left position to 0 */
 }
 
-.card-work .card-title {
-	opacity: 1;
+.card-work:hover .card-title {
+    opacity: 1;
 }
 
 /* Styling hero section */
