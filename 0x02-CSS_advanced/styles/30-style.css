@@ -357,7 +357,7 @@ ul.row {
     vertical-align: bottom; /* Vertically align to the bottom */
 }
 
-.card-work .card-image {
+.card-work .card-inner {
 	position: absolute;
 	top: -0.1rem;
 	left: -0.1rem;
@@ -388,8 +388,8 @@ ul.row {
     position: absolute; /* Absolutely position the selected elements */
     top: 0; /* Set top position to 0 */
     right: 0; /* Set right position to 0 */
-    bottom: 0; /* Set bottom position to 0 */
-    left: 0; /* Set left position to 0 */
+    left: 0; /* Set bottom position to 0 */
+    bottom: 0; /* Set left position to 0 */
 }
 
 .card-work:hover .card-title {
