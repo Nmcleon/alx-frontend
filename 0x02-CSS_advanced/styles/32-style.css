@@ -131,11 +131,11 @@ a:active {
 }
 
 .button:hover {
-	color: var(--color-white);
-	text-decoration: var(--button-hover-text-decoration);
-	background: var(--button-hover-background);
-	transition: var(--transition-duration) var(--transition-cubic-bezier);
-    background-color: var(--color-primary);
+	color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
 }
 
 /* Setting all elements of given class*/
@@ -234,6 +234,7 @@ a:active {
 	background-color: var(--color-white);
 	width: 0;
 	height: 0.2rem;
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover > .nav-link::before {
@@ -241,9 +242,6 @@ a:active {
 	width: 100%;
 }
 
-.nav .nav-link::before {
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
-}
 
 /* Grid styling and custom variables */
 ul.row {
@@ -387,6 +385,7 @@ ul.row {
 	left: -0.1rem;
 	right: -0.1rem;
 	z-index: 1;
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -421,10 +420,16 @@ ul.row {
 }
 
 .card-work:hover .card-image {
+	transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
+	position: absolute;
+	top: -0.1rem;
+	left: -0.1rem;
+	right: -0.1rem;
+	z-index: 1;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
